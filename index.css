@@ -1,0 +1,101 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  position: sticky;
+  background-color: rgb(3, 3, 34);
+  margin: 0;
+  letter-spacing: 1.5px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  margin: 10px 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.img-div {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 30px 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  border-radius: 100px;
+  width: 1000px;
+  height: 800px;
+
+}
+
+.contact-div {
+  background-color: cornflowerblue;
+  padding: 100px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-us h2 {
+  margin: 0;
+}
+
+#about-us {
+  height: 500px;
+  background-color: rgb(12, 143, 143);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  flex-direction: column;
+  
+}
+
+#about-us p {
+    width: 60%;
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    align-items: center;
+    width: 50%;
+    padding: 30px;
+}
+
+input {
+    width: 400px;
+    height: 20px;
+    padding: 10px 0 5px 10px;
+    font-size: 18px;
+}
+
+button {
+    width: 100px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+label {
+    margin: 5px 0 20px 10px;
+}
